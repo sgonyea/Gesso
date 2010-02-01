@@ -1,0 +1,31 @@
+This is NOT a CSS framework. It is merely a starting point for CSS projects. It is a sampling of techniques and tools I've found to work well together.
+
+
+Usage: 
+
+From the head of an HTML or XHTML document call the layout.css and print.css file as linked stylesheets, and if necessary the ie7.css and/or ie6.css stylesheet using conditional comments. 
+
+These styles are designed to work best with an XHTML 1.0 Strict Doctype. There are many advantages to using that particular doctype that I won't go into here.
+
+The print.css stylesheet is for use in print media only. Screen.css is intended for use in most other media.
+
+An example reference to these stylesheets from the Head of an HTML document would look like this:
+
+<!-- stylesheets -->
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />
+<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />
+
+<!--[if lte IE 7]>
+	<style type="text/css" media="screen">
+		@import "stylesheets/ie7.css";
+	</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+	<style type="text/css" media="screen">
+		@import "stylesheets/ie6.css";
+	</style>
+<![endif]-->
+
+
+Load test.html to see examples of the stylesheets applied to the various XHTML elements.
