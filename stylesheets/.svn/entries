@@ -1,14 +1,14 @@
 10
 
 dir
-76
+77
 https://bergantine.svn.beanstalkapp.com/dev/trunk/CSS-Groundwork/stylesheets
 https://bergantine.svn.beanstalkapp.com/dev
 
 
 
-2010-02-01T03:20:02.673568Z
-75
+2010-02-01T05:36:55.283866Z
+77
 jbergantine
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2010-02-01T03:19:11.000000Z
-ce672fa32b9717ab32d7e8e46f0e246e
-2010-02-01T03:20:02.673568Z
-75
+2010-02-01T05:23:45.000000Z
+9277cd335b0a2890a99814c7e99473e8
+2010-02-01T05:36:55.283866Z
+77
 jbergantine
 
 
@@ -58,7 +58,7 @@ jbergantine
 
 
 
-696
+670
 
 layout.css
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2010-02-01T03:19:11.000000Z
-bbb8e1b6dff6e1ced91953a5e7401a25
-2010-02-01T03:20:02.673568Z
-75
+2010-02-01T05:15:17.000000Z
+5175899e6f560344d98bed28a19cfc4f
+2010-02-01T05:36:55.283866Z
+77
 jbergantine
 
 
@@ -92,7 +92,7 @@ jbergantine
 
 
 
-1021
+921
 
 normalize.css
 file
@@ -100,10 +100,10 @@ file
 
 
 
-2010-02-01T03:19:11.000000Z
-2c171833af3445f23e8aaa992c5a36d7
-2010-02-01T03:20:02.673568Z
-75
+2010-02-01T05:07:53.000000Z
+5d3929ffac92d649eb72d5156250f2dd
+2010-02-01T05:36:55.283866Z
+77
 jbergantine
 
 
@@ -126,7 +126,7 @@ jbergantine
 
 
 
-2317
+2421
 
 ie6.css
 file
@@ -134,7 +134,7 @@ file
 
 
 
-2010-02-01T03:19:11.000000Z
+2010-02-01T05:24:09.000000Z
 e4d10087a632b0df73d9f0addf6a1a5c
 2010-02-01T03:20:02.673568Z
 75

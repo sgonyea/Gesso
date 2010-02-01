@@ -1,5 +1,3 @@
-/* single quotes cause ie5/mac to ignore the stylesheets */
-/* @import isn't understood by ns4.x */
 @import 'normalize.css';
 @import 'typography.css';
 
