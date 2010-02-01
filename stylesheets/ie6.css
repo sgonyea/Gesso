@@ -1,11 +1,7 @@
-/* self-clear floats via http://perishablepress.com/press/2009/12/06/new-clearfix-hack/ */
-.clearfix { 
-	zoom: 1; 
-}
-
 /* PNG fix */
 /* REMEMBER TO UPDATE #selector TO BE A REAL SELECTOR */
 /* REMEMBER TO UPDATED FITLER TO REFERENCE THE IMAGE THAT WE WANT THE FILTER TO BE APPLIED TO */
+/* #selector should be the same size as the image otherwise this declaration will scale the image to fit the selector, alternately, set sizingMethod to 'crop' instead of 'scale' */
 #selector {
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='img/image.png');
 	background-image: none;

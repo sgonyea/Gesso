@@ -32,12 +32,6 @@ Example stylesheet definition to be placed in the <head> of an HTML document:
 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />
 <link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />
 
-<!--[if lte IE 7]>
-	<style type="text/css" media="screen">
-		@import "stylesheets/ie7.css";
-	</style>
-<![endif]-->
-
 <!--[if lte IE 6]>
 	<style type="text/css" media="screen">
 		@import "stylesheets/ie6.css";
