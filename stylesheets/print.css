@@ -1,10 +1,6 @@
 @import 'normalize.css';
 @import 'typography.css';
 
-img {
-	display: block;
-}
-
 /* insert href values within parenthesis after a elements */
 a:link:after, a:visited:after {
    content: " (" attr(href) ") ";
