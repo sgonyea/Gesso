@@ -1,0 +1,54 @@
+/* single quotes cause ie5/mac to ignore the stylesheets */
+/* @import isn't understood by ns4.x */
+@import 'normalize.css';
+@import 'typography.css';
+
+/* ---------------------------------------
+	ELEMENT-LEVEL DECLARATIONS
+	--------------------------------------- */
+
+	/* unvisited link */
+	a:link {
+		color: #1e6ea6;
+	} 
+	
+	/* visited link */
+	a:visited {
+		color: #4c3453;
+	} 
+	
+	/* mouse over link */
+	a:hover {
+		color: #3c89c8;
+	}
+	
+	/* keyboard focus link */
+	a:focus {
+		color: #3c89c8;
+	}
+	
+	/* selected link */
+	a:active {
+		position: relative;
+		bottom: -1px;
+	} 
+
+/* ---------------------------------------
+	SITEWIDE
+	--------------------------------------- */
+
+	/* self-clear floats via http://perishablepress.com/press/2009/12/06/new-clearfix-hack/ */
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+
+/* ---------------------------------------
+	SECTION:	FOO
+	PAGE: 		BAR
+	URL: 		/index.php
+	--------------------------------------- */

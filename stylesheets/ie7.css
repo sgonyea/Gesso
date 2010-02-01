@@ -1,0 +1,5 @@
+/* self-clear floats via http://perishablepress.com/press/2009/12/06/new-clearfix-hack/ */
+.clearfix { 
+	zoom: 1; 
+}
+
