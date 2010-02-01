@@ -7,6 +7,8 @@
 	+ Transcending CSS by Andy Clarke (pg.158)
 
 	changelog
+	+ 2010-01-31 + updated documentation of ins and del
+				 + removed some normalization from sub and sup
 	+ 2009-12-18 + removed redundant resets near the bottom (img & fieldset border = none, abbr & acronym border = none)
 				 + removed all instances of outline: 0 for accessiblity
 	+ 2009-11-18 + removed outline: none; from :focus ... accessibility issues

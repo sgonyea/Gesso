@@ -1,15 +1,30 @@
-This is NOT a CSS framework. It is merely a starting point for CSS projects. It is a sampling of techniques and tools I've found to work well together.
+This is intended to be a starting point for CSS projects -- a sampling of techniques and tools I've found to work well together.
+
+
+
+Misc files:
+
+font-stack.rtf is a rich-text file for comparing the font stacks. Requires all the fonts in the stack to be loaded on a computer to actually compare them.
+
+test.html is an example XHTML document delineating the variety of elements that the stylesheet affects for a simple visual reference. 
+
 
 
 Usage: 
 
-From the head of an HTML or XHTML document call the layout.css and print.css file as linked stylesheets, and if necessary the ie7.css and/or ie6.css stylesheet using conditional comments. 
+From the head of an HTML or XHTML document reference the layout.css (screen media) and print.css (print media) files and, if necessary, the ie7.css and/or ie6.css stylesheet using conditional comments. 
 
-These styles are designed to work best with an XHTML 1.0 Strict Doctype. There are many advantages to using that particular doctype that I won't go into here.
+These styles are designed to work best with an XHTML 1.0 Strict Doctype and a semantics-based design technique. The address, b, big, caption, cite, code, dfn, em, i, small, strong, th, u, and var elements have their default styling removed. 
 
-The print.css stylesheet is for use in print media only. Screen.css is intended for use in most other media.
+The Typography stylesheet sets up a Baseline Grid and defines screen-friendly font stacks inlcuding a humanist sans-serif stack, a serif stack and a monospace font stack.
 
-An example reference to these stylesheets from the Head of an HTML document would look like this:
+There are a few extra non-semantic hooks for better typographic styling including a definition for the .amp class (for ampersands customization) and a .caps class definition for setting text in all caps.
+
+The effects of these stylesheets and the methods used to import them can and will have odd effects (or just flat out won't work) on Netscape Communicator and IE 5 Mac. 
+
+
+
+Example stylesheet definition to be placed in the <head> of an HTML document:
 
 <!-- stylesheets -->
 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />
@@ -26,6 +41,3 @@ An example reference to these stylesheets from the Head of an HTML document woul
 		@import "stylesheets/ie6.css";
 	</style>
 <![endif]-->
-
-
-Load test.html to see examples of the stylesheets applied to the various XHTML elements.
