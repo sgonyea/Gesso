@@ -2,6 +2,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>Test display of HTML elements</title>
 		
 		<!-- 
@@ -96,7 +97,6 @@
 			<li><q>Hello!</q> (<code>q</code> markup used for quotation)</li>
 			<li>He said: <q>She said <q>Hello!</q></q> (a quotation inside a quotation)</li>
 			<li>you may get the message <samp>Core dumped</samp> at times (<code>samp</code> markup used for sample output)</li>
-			<li><strike>overstruck</strike> (<code>strike</code> markup used; note: <code>s</code> is a nonstandard synonym for <code>strike</code>)</li>
 			<li><strong>this is highlighted text</strong> (<code>strong</code> markup used)</li>
 			<li>In order to test how subscripts and superscripts (<code>sub</code> and <code>sup</code> markup) work inside running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some nested superscripts (exponents) too: e<sup>x<sup>2</sup></sup> and f(x)<sup>g(x)<sup>a+b+c</sup></sup> (where 2 and a+b+c should appear as exponents of exponents).</li>
 			<li><tt>text in monospace font</tt> (<code>tt</code> markup used)</li>
@@ -109,13 +109,12 @@
 			<li><big>big thing</big> (<code>big</code> markup used)</li>
 			<li><i lang="la" xml:lang="la">Homo sapiens</i> (<code>i</code> markup used)</li>
 			<li><small>this is not that important</small> (<code>small</code> markup used)</li>
-			<li><u>underlined</u> text (<code>u</code> markup used)</li>
 		</ul>
 		
 		<h2>Typography-related non-semantic classes</h2>
 		<ul>
 			<li><abbr title="Cascading Style Sheets" class="caps">CSS</abbr> (an abbreviation; <code>abbr</code> markup used) this time with the addition of the <code>caps</code> class</li>
-			<li>A<span class="amp">&</span>W (use of ampersand wrapped in the class <code>amp</code></li>		
+			<li>A<span class="amp">&#038;</span>W (use of ampersand wrapped in the class <code>amp</code></li>		
 		</ul>		
 		
 		<p>Some of the elements tested above are typically displayed in a monospace font, often using the <em>same</em> presentation for all of them. This tests whether that is the case on your browser:</p>
