@@ -18,4 +18,3 @@ a:link:after, a:visited:after {
 a[href^="/"]:after {
 	content: " (http://siteURL.com" attr(href) ") ";
 }
-

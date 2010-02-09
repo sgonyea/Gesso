@@ -1,9 +1,7 @@
 @import 'normalize.css';
 @import 'typography.css';
 
-/* ---------------------------------------
-	ELEMENT-LEVEL DECLARATIONS
-	--------------------------------------- */
+/* !Element-level Declarations */
 
 	/* unvisited link */
 	a:link {
@@ -31,12 +29,10 @@
 		bottom: -1px;
 	} 
 
-/* ---------------------------------------
-	SITEWIDE
-	--------------------------------------- */
+/* !Sitewide Delcarations */
 
-/* ---------------------------------------
-	SECTION:	FOO
-	PAGE: 		BAR
-	URL: 		/index.php
-	--------------------------------------- */
+	
+
+/* !Page: /foo/ */
+
+	
