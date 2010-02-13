@@ -1,26 +1,15 @@
-/*
- * Typography.css
- * 
- * Contains typography related-settings including:
- * - font-family
- * - font-size
- * - line-height
- * - leading as controlled by margin-top and margin-bottom
- * - text-align
- * - font-weight
- * - text-transform
- * - text-decoration
- * - baseline alignment using vertical-align or relative positioning and top/bottom margins
- * 
- * Does not contain:
- * - color
- * - layout-related positioning such as left/right margin or non-collapsable leading such as padding
- */
+/* -----------------------------------------------------------------------------
 
-/* ---------------------------------------
-	REMEMBER TO INCLUDE THE PostScript 
-	NAME OF FONTS FOR SAFARI
-	--------------------------------------- */
+	©2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+	(http://creativecommons.org/licenses/by-sa/3.0/us/)
+
+----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+
+	REMEMBER TO INCLUDE THE PostScript NAME OF FONTS FOR SAFARI
+
+	---------------------------------------------------------------------------- */
 
 /* !Element-level Declarations */
 

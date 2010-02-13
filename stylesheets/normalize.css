@@ -1,5 +1,5 @@
-/* ------------------------------------------------------------------------------+
-	                                                                             |
+/* -----------------------------------------------------------------------------
+
 	v1.8 Dec 18, 2009 -- Valid CSS 2.1
 	
 	derived from
@@ -13,9 +13,11 @@
 				 + removed all instances of outline: 0 for accessiblity
 	+ 2009-11-18 + removed outline: none; from :focus ... accessibility issues
 	+ 2008-11-19 + removed content: none; from blockquote:before, blockquote:after, q:before, q:after { ... as it was invalid
+	
+	©2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+	(http://creativecommons.org/licenses/by-sa/3.0/us/)
 
-
-+------------------------------------------------------------------------------ */
+	---------------------------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -51,12 +53,11 @@ q:before, q:after {
 	content: '';
 }
 
-/* ---------------------------------------
-	THE FOLLOWING 4 DECLARATIONS ARE 
-	REDUNDANT TO THE BROWSERS DEFAULT
-	BUT THIS WAY ITS OBVIOUS HOW THEY'RE
-	BEING SET
-	--------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+	THE FOLLOWING 4 DECLARATIONS ARE REDUNDANT TO THE BROWSERS DEFAULT BUT THIS WAY ITS OBVIOUS HOW THEY'RE BEING SET
+
+	---------------------------------------------------------------------------- */
 	
 	ins {
 		text-decoration: underline;
@@ -78,11 +79,12 @@ sub, sup {
 	line-height: 0;
 }
 
-/* ---------------------------------------
-	REMEMBER, TABLES STILL NEED 
-	'cellspacing="0" cellspacing="0"' 
-	IN THE MARKUP 
-	--------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+	REMEMBER, TABLES STILL NEED 'cellspacing="0" cellspacing="0"' IN THE MARKUP 
+
+	---------------------------------------------------------------------------- */
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;

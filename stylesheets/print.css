@@ -1,3 +1,10 @@
+/* -----------------------------------------------------------------------------
+
+	©2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+	(http://creativecommons.org/licenses/by-sa/3.0/us/)
+
+	---------------------------------------------------------------------------- */
+
 @import 'normalize.css';
 @import 'typography.css';
 
@@ -11,9 +18,11 @@ a:link:after, a:visited:after {
 /* for relative links (those that begin /yaddi/yaddi/yaddi) insert the sitename before the beginning slash to make a full url */
 /* use of regular expression-esque syntax (such as href^="/") is supported in css3 and higher only */
 
-/* ---------------------------------------
+/* -----------------------------------------------------------------------------
+
 	MAKE SURE TO CHANGE siteURL.com TO THE CORRECT URL
-	--------------------------------------- */
+
+	---------------------------------------------------------------------------- */
 
 a[href^="/"]:after {
 	content: " (http://siteURL.com" attr(href) ") ";

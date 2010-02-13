@@ -1,12 +1,21 @@
+/* -----------------------------------------------------------------------------
+
+	©2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+	(http://creativecommons.org/licenses/by-sa/3.0/us/)
+
+	---------------------------------------------------------------------------- */
+
 /* !PNG fix */
 
-/* ---------------------------------------
+/* -----------------------------------------------------------------------------
+
 	REMEMBER TO UPDATE:
 	* #selector TO BE A REAL SELECTOR FOR AN ELEMENT THAT HAS A .png WITH ALPHA-TRNASPARENCY AS A BACKGROUD IMAGE
 	* src TO REFERENCE THAT SAME IMAGE 
 	
 	NOTE: #selector should be the same size as the image otherwise this declaration will scale the image to fit the selector, alternately, set sizingMethod to 'crop' instead of 'scale'
---------------------------------------- */
+
+	---------------------------------------------------------------------------- */
 
 #selector {
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='img/image.png');
