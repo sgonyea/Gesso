@@ -48,7 +48,7 @@
 	ul p, ul ul, ul ol, ul dl, ul table, ul form, ul address,
 	ol p, ol ul, ol ol, ol dl, ol table, ol form, ol address,
 	dl p, dl ul, dl ol, dl table, dl form, dl address,
-	table p, table ul, table ol, table dl, table table, table form, table address, {
+	table p, table ul, table ol, table dl, table table, table form, table address {
 		font-size: 1em; /* don't further scale nested type */
 		margin-top: 0; /* reset margin */
 		margin-bottom: 0; /* reset margin */
