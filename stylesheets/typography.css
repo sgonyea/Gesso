@@ -51,7 +51,7 @@
 	table p, table ul, table ol, table dl, table table, table form, table address {
 		font-size: 1em; /* don't further scale nested type */
 		margin-top: 0; /* reset margin */
-		margin-bottom: 0; /* reset margin */
+		margin-bottom: 1.5em; /* reset margin */
 	}
 	
 	input, select, button, textarea {
