@@ -38,7 +38,15 @@
 
 /* !Sitewide Delcarations */
 
-	
+	.hidden {
+		/* screen reader-friendly hidden content from http://www.webaim.org/techniques/css/invisiblecontent/ */
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
 
 /* !Page: /foo/ */
 
