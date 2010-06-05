@@ -19,7 +19,7 @@ These styles are designed to work best with an XHTML 1.0 Strict Doctype and a se
 
 The Typography stylesheet sets up a Baseline Grid and defines screen-friendly font stacks including a humanist sans-serif stack, a serif stack and a monospace font stack.
 
-There are a few extra non-semantic hooks for better typographic styling including a definition for the .amp class (for ampersands customization) and a .caps class definition for setting text in all caps.
+There are a few extra non-semantic hooks for better typographic styling including a definition for the `.amp` class (for ampersands customization) and a `.caps` class definition for setting text in all caps.
 
 The effects of these stylesheets and the methods used to import them can and will have odd effects (or just flat out won't work) on Netscape Communicator and IE 5 Mac. At one point this was intentional but now its just worth mentioning.
 
