@@ -33,12 +33,12 @@ Miscellaneous Files
 Example Definition To Be Placed In the `<head>` of an HTML Document
 -------------------------------------------------------------------
 
-`<!-- stylesheets -->
-<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />
-<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />
+`<!-- stylesheets -->`
+`<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />`
+`<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />`
 
-<!--[if lte IE 6]>
-	<style type="text/css" media="screen">
-		@import "stylesheets/ie6.css";
-	</style>
-<![endif]-->`
+`<!--[if lte IE 6]>`
+`	<style type="text/css" media="screen">`
+`		@import "stylesheets/ie6.css";`
+`	</style>`
+`<![endif]-->`
