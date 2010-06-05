@@ -33,8 +33,8 @@ Miscellaneous Files
 Example Definition To Be Placed In the `<head>` of an HTML Document
 -------------------------------------------------------------------
 
-`<!-- stylesheets -->`
 `<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/layout.css" />`
+
 `<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />`
 
 `<!--[if lte IE 6]>`
