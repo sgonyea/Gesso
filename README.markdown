@@ -3,6 +3,11 @@ Gesso
 
 Gesso is best described as a primer coat for a CSS project; more than a CSS Reset and less than a CSS Framework.
 
+License
+-------
+
+Gesso, a CSS Primer Coat by [Joseph Bergantine](http://joebergantine.com/) is released under a [Creative-Commons Attribution Non-Commercial Share-Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/us/).
+
 Usage
 ----- 
 
